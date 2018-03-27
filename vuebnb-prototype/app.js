@@ -1,14 +1,17 @@
 var app = new Vue({
   el: '#app',
   data: {
-    title: sample.title,
-    address: sample.address,
-    about: sample.about,
     headerImageStyle: {
       'background-image': 'url(sample/header.jpg)'
     },
+    title: sample.title,
+    address: sample.address,
+    about: sample.about,
     amenities: sample.amenities,
-    prices: sample.prices
+    prices: sample.prices,
+    contracted: true,
+    modalOpen:false,
+
   },
 
 });
